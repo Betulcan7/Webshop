@@ -29,7 +29,8 @@
   <li style="float:right"><a href="winkelwagen.php">Winkelwagen</a></li>
 </div>
 
-    <div class="aanmelden">
+  <form class="aanmelden" method="post" action="klant.php">
+
         <h1>AANMELDEN</h1>
         <br><br>
         <input type="text" name="naam" placeholder="Naam">
@@ -44,9 +45,10 @@
         <br><br>
         <input type="text" name="ww" placeholder="Herhaal Wachtwoord">
         <br><br>
-        <button>AANMELDEN</button>
+        <button type="submit">AANMELDEN</button>
         <br><br>
-    </div>
+
+  </form>
 
     
     <footer class="footer">
@@ -96,7 +98,7 @@
 <style>
 
 body{
-    background-color: #6495ED; 
+    background-color: black; 
     background-size: cover;
 }
 
