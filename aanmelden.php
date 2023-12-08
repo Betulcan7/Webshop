@@ -31,22 +31,22 @@
 
   <form class="aanmelden" method="post" action="klant.php">
 
-        <h1>AANMELDEN</h1>
-        <br><br>
-        <input type="text" name="naam" placeholder="Naam">
-        <br><br>
-        <input type="text" name="achternaam" placeholder="achternaam">
-        <br><br>
-        <input type="text" name="email" placeholder="E-mail">
-        <br><br>
-        <input type="text" name="tel" placeholder="Telefoon Nummer">
-        <br><br>
-        <input type="text" name="ww" placeholder="Wachtwoord">
-        <br><br>
-        <input type="text" name="ww" placeholder="Herhaal Wachtwoord">
-        <br><br>
-        <button type="submit">AANMELDEN</button>
-        <br><br>
+    <h1>AANMELDEN</h1>
+    <br><br>
+    <input type="text" name="naam" placeholder="Naam">
+    <br><br>
+    <input type="text" name="achternaam" placeholder="achternaam">
+    <br><br>
+    <input type="text" name="email" placeholder="E-mail">
+    <br><br>
+    <input type="text" name="tel" placeholder="Telefoon Nummer">
+    <br><br>
+    <input type="text" name="ww" placeholder="Wachtwoord">
+    <br><br>
+    <input type="text" name="ww" placeholder="Herhaal Wachtwoord">
+    <br><br>
+    <button type="submit">AANMELDEN</button>
+    <br><br>
 
   </form>
 
