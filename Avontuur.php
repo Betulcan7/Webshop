@@ -17,11 +17,11 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content"> 
-      <a href="#">Alles</a>
-      <a href="#">Sport</a>
-      <a href="#">Actie</a>
-      <a href="#">Simulatie</a>
-      <a href="#">Avontuur</a>
+      <a href="games.php">Alles</a>
+      <a href="sport.php">Sport</a>
+      <a href="actie.php">Actie</a>
+      <a href="simulatie.php">Simulatie</a>
+      <a href="avontuur.php">Avontuur</a>
     </div>
   </div>
   <li style="float:right"><a href="contact.php">Contact</a></li>
@@ -64,9 +64,9 @@
       <div class="footer-col">
         <h4>KLANTENSERVICE</h4>
         <ul>
-          <li><a href="#">Over Ons</a></li> <br>
-          <li><a href="#">Retour</a></li> <br>
-          <li><a href="#">Voorwaarden</a></li> <br>
+          <li><a href="overons.php">Over Ons</a></li> <br>
+          <li><a href="retour.php">Retour</a></li> <br>
+          <li><a href="voorwaarden.php">Voorwaarden</a></li> <br>
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>

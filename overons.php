@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>onderdelen</title>
+    <title>Over Ons</title>
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -16,22 +16,18 @@
     <button class="dropbtn">Games 
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
-      <a href="#">Alles</a>
-      <a href="#">Sport</a>
-      <a href="#">Actie</a>
-      <a href="#">Simulatie</a>
-      <a href="#">Avontuur</a>
+    <div class="dropdown-content"> 
+      <a href="games.php">Alles</a>
+      <a href="sport.php">Sport</a>
+      <a href="actie.php">Actie</a>
+      <a href="simulatie.php">Simulatie</a>
+      <a href="avontuur.php">Avontuur</a>
     </div>
-  </div> 
+  </div>
   <li style="float:right"><a href="contact.php">Contact</a></li>
   <li style="float:right"><a href="inloggen.php">Inloggen</a></li>
   <li style="float:right"><a href="winkelwagen.php">Winkelwagen</a></li>
 </div>
-
-</body>
-</html>
-
 
 <footer class="footer">
   <div class="container">
@@ -39,9 +35,9 @@
       <div class="footer-col">
         <h4>KLANTENSERVICE</h4>
         <ul>
-          <li><a href="#">Over Ons</a></li> <br>
-          <li><a href="#">Retour</a></li> <br>
-          <li><a href="#">Voorwaarden</a></li> <br>
+          <li><a href="overons.php">Over Ons</a></li> <br>
+          <li><a href="retour.php">Retour</a></li> <br>
+          <li><a href="voorwaarden.php">Voorwaarden</a></li> <br>
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
@@ -72,3 +68,4 @@
     </div>
   </div>
 </footer>
+  
