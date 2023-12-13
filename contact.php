@@ -124,6 +124,10 @@
 
 <style>
 
+*{
+  list-style-type: none;
+}
+
 .contactform{
     margin-left: 50rem;
     margin-top: -38rem;

@@ -286,6 +286,10 @@
 
 <style>
 
+*{
+  list-style-type: none;
+}
+
 .all{
     display: flex;
     justify-content: space-evenly;

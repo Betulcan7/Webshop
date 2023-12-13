@@ -97,6 +97,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    list-style-type: none;
 }
 
 body{

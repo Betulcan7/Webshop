@@ -74,3 +74,11 @@
 
 </body>
 </html>
+
+<style>
+
+*{
+  list-style-type: none;
+}
+
+</style>

@@ -80,6 +80,10 @@
 
 <style>
 
+*{
+  list-style-type: none;
+}
+
     input{
         height: 30px;
         width: 400px;

@@ -90,6 +90,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    list-style-type: none;
 }
 
 .ww h2{
@@ -119,3 +120,4 @@
     bottom: 0; left: 0; right: 0;
 }
 </style>
+

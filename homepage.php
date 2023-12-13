@@ -29,6 +29,10 @@
   <li style="float:right"><a href="winkelwagen.php">Winkelwagen</a></li>
 </div>
 
+<div class="div1">
+  <h1>De nieuwste games voor de <br> &nbsp&nbsp&nbsp beste prijs op onze site!</h1>
+</div>
+
 <footer class="footer">
   <div class="container">
     <div class="row">
@@ -69,3 +73,34 @@
   </div>
 </footer>
   
+
+<style>
+
+*{
+  list-style-type: none;
+}
+
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+}
+
+.div1{
+  margin-top: 200px;
+  margin-left: 470px
+}
+
+.div1 h1{
+  color: white;
+  font-size: 50px;
+}
+
+footer{
+  position: absolute; 
+  bottom: -100px; left: 0; right: 0;
+}
+
+
+</style>

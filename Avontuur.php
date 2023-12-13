@@ -100,6 +100,10 @@
 
 <style>
 
+*{
+  list-style-type: none;
+}
+
 .div1{
     display: flex;
     justify-content: space-evenly;

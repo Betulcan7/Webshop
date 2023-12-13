@@ -68,4 +68,13 @@
     </div>
   </div>
 </footer>
+
+
+<style>
+
+*{
+  list-style-type: none;
+}
+
+</style>
   

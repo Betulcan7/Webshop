@@ -97,6 +97,10 @@
 
 <style>
 
+*{
+  list-style-type: none;
+}
+
 body{
     background-color: black; 
     background-size: cover;
