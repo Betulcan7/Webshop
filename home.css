@@ -39,7 +39,7 @@
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: cyan;
+    background-color: #FF7F50;
   }
   
   .dropdown-content {
@@ -112,14 +112,17 @@
   }
   
   .footer-col button{
-    background-color: cyan;
-    font-size: 20px;
+    background-color: #FF7F50;
+    height: 30px;
+    width: 120px;
+    font-weight: bold;
   }
   
   .footer button a{
     color: black;
+    font-size: 15px;
   }
   
   i{
-    color:cyan;
+    color: #FF7F50;
   }

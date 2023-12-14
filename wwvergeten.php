@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wachtwoord vergeten</title>
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -30,8 +30,6 @@
 </div>    
 
     <div class="ww">
-        <h2>Wachtwoord vergeten</h2>
-        <br><br>
         <p>
             &ensp;&ensp; Voer het e-mailadres in waarmee je <br><br>
             &emsp;&emsp;&emsp;&emsp; je hebt geregistreerd.
@@ -93,26 +91,28 @@
     list-style-type: none;
 }
 
-.ww h2{
-    margin-left: 43rem;
-    margin-top: 4rem;
+body{
+  background-color: #191970;
 }
 
 .ww p{
-    margin-left: 40rem;
+    margin-top: 7rem;
+    margin-left: 35rem;
     font-size: 20px;
-    color: gray;
+    color: white;
 }
 
 .ww input{
     font-size: 20px;
-    margin-left: 43rem;
+    margin-left: 39rem;
 }
 
 .ww button{
     width: 300px;
     height: 30px;
-    margin-left: 42rem;
+    margin-left: 38rem;
+    color: black;
+    font-weight: bold;
 }
 
 .footer{

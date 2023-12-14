@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inloggen</title>
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -37,7 +37,7 @@
         <input type="text" name="gebruiker" placeholder="Email">
         <p>Wachtwoord</p>
         <input type="password" name="password" placeholder="Wachtwoord">
-        <button type="submit">Inloggen</button>
+        <button type="submit">INLOGGEN</button>
         <br>
         <a href="wwvergeten.php" class="wwvergeten">Wachtwoord vergeten?</a>
         <br> <br>
@@ -101,7 +101,7 @@
 }
 
 body{
-    background-color:#6495ED; 
+    background-color: #191970; 
     background-size: cover;
 }
 

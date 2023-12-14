@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nieuwsbrief</title>
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -31,7 +31,7 @@
 
 
 <div class="nieuws">
-    <h1>Meld je aan voor onze nieuwsbrief!</h1> <br><br>
+    <h1>Meld je aan voor onze nieuwsbrief !</h1> <br><br>
     <input type="text" name="Name" placeholder="Naam"> <br><br>
     <input type="text" name="E-mail" placeholder="E-mail"> <br><br>
     <button>AANMELDEN</button>
@@ -89,18 +89,27 @@
         width: 400px;
     }
 
+body{
+  background-color: #191970;
+}
+
     .nieuws button{
-        background-color: cyan;
+        background-color: white;
         color: black;
-        border-color: cyan;
+        border-color: white;
         height: 30px;
         width: 100px;
+        font-weight: bold;
     }
 
     .nieuws{
         margin-top: 100px;
         margin-left: 35%;
     }
+
+.nieuws h1{
+  color: white;
+}
 
     .footer{
     position: absolute; 

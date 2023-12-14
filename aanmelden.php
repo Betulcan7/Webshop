@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aanmelden</title>
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -102,7 +102,7 @@
 }
 
 body{
-    background-color: black; 
+    background-color: #191970; 
     background-size: cover;
 }
 
@@ -128,8 +128,9 @@ body{
 }
 
 .aanmelden button{
-    margin-left: 43rem;
+    margin-left: 44rem;
     border-radius: 5px;
     width: 100px;
     height: 40px;
+    font-weight: bold;
 }

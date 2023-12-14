@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -31,7 +31,7 @@
 
 
 <div class="contactgegevens">
-<h1>CONTACTGEGEVENS</h1>
+<h2>CONTACTGEGEVENS</h2>
 <br><br>
 <p><strong>E-mail:</strong>
 <br> @gmail.com
@@ -53,7 +53,7 @@
 
 
 <div class="contactform">
-<h1>CONTACTFORMULIER</h1>
+<h2>CONTACTFORMULIER</h2>
 <br><br>
 <div class="form">
 
@@ -129,7 +129,7 @@
 }
 
 .contactform{
-    margin-left: 50rem;
+    margin-left: 40rem;
     margin-top: -38rem;
 }
 
