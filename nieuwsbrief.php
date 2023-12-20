@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nieuwsbrief</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nieuwsbrief</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
@@ -31,10 +31,10 @@
 
 
 <div class="nieuws">
-    <h1>Meld je aan voor onze nieuwsbrief !</h1> <br><br>
-    <input type="text" name="Name" placeholder="Naam"> <br><br>
-    <input type="text" name="E-mail" placeholder="E-mail"> <br><br>
-    <button>AANMELDEN</button>
+  <h1>Meld je aan voor onze nieuwsbrief !</h1> <br><br>
+  <input type="text" name="Name" placeholder="Naam"> <br><br>
+  <input type="text" name="E-mail" placeholder="E-mail"> <br><br>
+  <button>AANMELDEN</button>
 </div>
 
 
@@ -84,36 +84,36 @@
   list-style-type: none;
 }
 
-    input{
-        height: 30px;
-        width: 400px;
-    }
+input{
+  height: 30px;
+  width: 400px;
+}
 
 body{
   background-color: #191970;
 }
 
-    .nieuws button{
-        background-color: white;
-        color: black;
-        border-color: white;
-        height: 30px;
-        width: 100px;
-        font-weight: bold;
-    }
+.nieuws button{
+  background-color: white;
+  color: black;
+  border-color: white;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+}
 
-    .nieuws{
-        margin-top: 100px;
-        margin-left: 35%;
-    }
+.nieuws{
+  margin-top: 100px;
+  margin-left: 35%;
+}
 
 .nieuws h1{
   color: white;
 }
 
-    .footer{
-    position: absolute; 
-    bottom: 0; left: 0; right: 0;
+.footer{
+  position: absolute; 
+  bottom: 0; left: 0; right: 0;
 }
 
 </style>

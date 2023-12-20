@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wachtwoord vergeten</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wachtwoord vergeten</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
@@ -29,19 +29,19 @@
   <li style="float:right"><a href="winkelwagen.php">Winkelwagen</a></li>
 </div>    
 
-    <div class="ww">
-        <p>
-            &ensp;&ensp; Voer het e-mailadres in waarmee je <br><br>
-            &emsp;&emsp;&emsp;&emsp; je hebt geregistreerd.
-        </p>
-        <br><br>
-        <input type="text" name="E-mail" placeholder="E-mail">
-        <br><br>
-        <button>WACHTWOORD RESETTEN</button>
-    </div>
+<div class="ww">
+  <p>
+    &ensp;&ensp; Voer het e-mailadres in waarmee je <br><br>
+    &emsp;&emsp;&emsp;&emsp; je hebt geregistreerd.
+  </p>
+  <br><br>
+  <input type="text" name="E-mail" placeholder="E-mail">
+  <br><br>
+  <button>WACHTWOORD RESETTEN</button>
+</div>
 
 
-    <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="row">
       <div class="footer-col">
@@ -70,7 +70,7 @@
           <p>Volg ons op Social Media. <br>
              En maak regelmatig kans <br>
              op leuke prijzen en blijf op de <br>
-             hoogte van onze acties. 
+             hoogte van onze acties.
           </p> <br>
           <a href="#"><i class="fab fa-facebook-f"></i></a> &nbsp&nbsp&nbsp
           <a href="#"><i class="fab fa-twitter"></i></a>&nbsp&nbsp&nbsp
@@ -85,10 +85,10 @@
 <style>
 
 *{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  list-style-type: none;
 }
 
 body{
@@ -96,28 +96,28 @@ body{
 }
 
 .ww p{
-    margin-top: 7rem;
-    margin-left: 35rem;
-    font-size: 20px;
-    color: white;
+  margin-top: 7rem;
+  margin-left: 35rem;
+  font-size: 20px;
+  color: white;
 }
 
 .ww input{
-    font-size: 20px;
-    margin-left: 39rem;
+  font-size: 20px;
+  margin-left: 39rem;
 }
 
 .ww button{
-    width: 300px;
-    height: 30px;
-    margin-left: 38rem;
-    color: black;
-    font-weight: bold;
+  width: 300px;
+  height: 30px;
+  margin-left: 38rem;
+  color: black;
+  font-weight: bold;
 }
 
 .footer{
-    position: absolute; 
-    bottom: 0; left: 0; right: 0;
+  position: absolute; 
+  bottom: 0; left: 0; right: 0;
 }
 </style>
 

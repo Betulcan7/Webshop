@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retour</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retour</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
@@ -28,6 +28,27 @@
   <li style="float:right"><a href="inloggen.php">Inloggen</a></li>
   <li style="float:right"><a href="winkelwagen.php">Winkelwagen</a></li>
 </div>
+
+<div class="body">
+<h1>Kan ik mijn product retourneren?</h1> <br>
+<h3>Je hebt het recht om je product binnen 30 dagen na ontvangst te retourneren, op <br>voorwaarde dat: <br><br>
+Het moet compleet zijn met alle accessoires. <br>
+Het moet er nog als nieuw uitzien. <br>
+Als het kan, moet het in de originele doos zitten.
+</h3>
+<br><br><br>
+<h1>Hoe stuur ik mijn product terug?</h1> <br>
+<h3>
+1. Terugbrengen naar de winkel: <br>
+Als je je product terugbrengt naar de winkel en het voldoet aan de voorwaarden, <br>
+betalen we je meteen het aankoopbedrag terug, inclusief eventuele bezorgkosten. <br><br>
+2. Opsturen per post: <br>
+Je kan ze ook terugsturen via de post. Kom langs in een van onze winkels, <br>
+waar onze klantenservicemedewerkers je product controleren. Als het <br>
+aan de voorwaarden voldoet, betalen we je het aankoopbedrag terug.
+</h3>
+</div>
+
 
 <footer class="footer">
   <div class="container">
@@ -75,6 +96,16 @@
 
 *{
   list-style-type: none;
+}
+
+.body{
+  margin-top: 6rem;
+  margin-left: 1rem;
+}
+
+.footer{
+  position: absolute; 
+  bottom: -250px; left: 0; right: 0;
 }
 
 </style>

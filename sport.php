@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sport Games</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sport Games</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
@@ -39,10 +39,12 @@
     <p>Prijs: € 49,99</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-    <button>IN WINKELWAGEN</button>
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="1">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
 <br><br><br><br><br><br><br><br>
   <div>
@@ -51,10 +53,12 @@
     <p>Prijs: € 55,-</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-    <button>IN WINKELWAGEN</button>
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="16">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
 <br><br><br><br><br><br><br><br>
   <div>
@@ -63,10 +67,12 @@
     <p>Prijs: € 44,-</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-    <button>IN WINKELWAGEN</button>
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="10">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
 </div>
 
@@ -77,7 +83,6 @@
     <p>Prijs: € 44,-</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
     <button>IN WINKELWAGEN</button>
@@ -89,10 +94,12 @@
     <p>Prijs: € 25,99</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-    <button>IN WINKELWAGEN</button>
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="5">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
 </div>
 
@@ -104,10 +111,12 @@
     <p>Prijs: € 34,99</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-    <button>IN WINKELWAGEN</button>
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="15">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
 <br><br><br><br><br><br><br><br>
 </div>
@@ -162,25 +171,25 @@
 }
 
 .all{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 5rem;
 }
 
 .div1{
-    display: flex; 
-    flex-direction: column;
+  display: flex; 
+  flex-direction: column;
 }
 
 .div2{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .div3{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 img{

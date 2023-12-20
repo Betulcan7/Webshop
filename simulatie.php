@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulatie games</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulatie games</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
@@ -38,10 +38,12 @@
     <p>Prijs: € 19,99</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-    <button>IN WINKELWAGEN</button>
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="8">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
 <br><br><br><br><br><br><br><br>
   <div>
@@ -50,10 +52,12 @@
     <p>Prijs: € 69,99</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-    <button>IN WINKELWAGEN</button>
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="6">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
   <br><br><br><br><br><br><br><br>
   <div>
@@ -62,10 +66,12 @@
     <p>Prijs: € 37,92</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-    <button>IN WINKELWAGEN</button>
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="11">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
 </div>
 
@@ -117,10 +123,10 @@
 }
 
 .div1{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 5rem;
 }
 
 div h2{

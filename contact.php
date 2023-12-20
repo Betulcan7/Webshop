@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
@@ -43,8 +43,8 @@
 <br><br>
 <p><strong>Adres:</strong>
 <br>
-    Rotterdam <br>
-    3013AJ Rotterdam
+  Rotterdam <br>
+  3013AJ Rotterdam
 </p>
 <br><br>
 <p>
@@ -56,7 +56,6 @@
 <h2>CONTACTFORMULIER</h2>
 <br><br>
 <div class="form">
-
   <form action="/action_page.php">
     <label for="fname">Naam</label>
     <input type="text" id="fname" name="firstname">
@@ -76,9 +75,6 @@
     <input type="submit" value="Verzenden">
   </form>
 </div>
-
-
-
 
 
 <footer class="footer">
@@ -129,13 +125,13 @@
 }
 
 .contactform{
-    margin-left: 40rem;
-    margin-top: -38rem;
+  margin-left: 40rem;
+  margin-top: -38rem;
 }
 
 .contactgegevens{
-    margin-top: 5rem;
-    margin-left: 5rem
+  margin-top: 5rem;
+  margin-left: 5rem
 }
 
 
