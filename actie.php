@@ -70,7 +70,10 @@
       <label for="xbox">Xbox</label> &nbsp&nbsp
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-    <button>IN WINKELWAGEN</button>
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="7">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
   <br><br><br><br><br><br><br><br>
   <div>
@@ -82,7 +85,7 @@
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
     <form action="winkelwagen.php" method="post">
-      <input type="hidden" name="product_id" value="7">
+      <input type="hidden" name="product_id" value="2">
       <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
     </form> 
   </div>

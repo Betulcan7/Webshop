@@ -54,13 +54,12 @@
     <p>Prijs: € 29,99</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
-      <form action="winkelwagen.php" method="post">
-        <input type="hidden" name="product_id" value="2">
-        <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
-      </form> 
+    <form action="winkelwagen.php" method="post">
+      <input type="hidden" name="product_id" value="2">
+      <button type="submit" name="add_to_cart">IN WINKELWAGEN</button>
+    </form> 
   </div>
 <br><br><br><br><br><br><br><br>
   <div>
@@ -203,7 +202,6 @@
     <p>Prijs: € 25,99</p> <br>
     <input type="radio" id="xbox" name="platform" value="xbox">
       <label for="xbox">Xbox</label> &nbsp&nbsp
-
     <input type="radio" id="ps5" name="platform" value="ps5">
       <label for="ps5">PS5</label> <br>
       <form action="winkelwagen.php" method="post">
